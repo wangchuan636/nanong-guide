@@ -1,12 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>南农校园 - 南阳农业职业学院</title>
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; background: #F8FBF8; color: #333; max-width: 480px; margin: 0 auto; min-height: 100vh; padding-top: 52px; padding-bottom: 80px; }
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0,0,0,0); }
+body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; background: #F8FBF8; color: #333; max-width: 480px; margin: 0 auto; min-height: 100vh; padding-top: 52px; padding-bottom: 80px; touch-action: manipulation; }
 
 /* ===== 通用组件 ===== */
 .topbar { display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; background: rgba(255,255,255,0.85); position: fixed; top: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 480px; z-index: 999; border-bottom: 1px solid rgba(200,230,201,0.5); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
@@ -622,6 +622,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 </div>
 
 <script>
+// VERSION: 2026-07-24-v4-FIXED
 // ========== 页面切换 ==========
 function switchTab(tab) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
@@ -913,7 +914,7 @@ var q30Answers = {  'Q1': '南阳农业职业学院，简称"南阳农职院"，
   'Q28': '高职院校体育课一般是必修课（大一），不需要"抢"太多，安排相对灵活。项目有篮球、足球、羽毛球、乒乓球、健身操等。选修课/公选课在教务系统选，每学期选1-2门。热门轻松课程较抢手。选课技巧：用校园网、提前想好选什么、系统开放立即抢。南阳农职院选修课偏技能型，如插花、茶艺、摄影等。',
   'Q29': '宿舍按学院专业统一分配，不能自由选择楼栋。可以和同班同学提前商量好组宿舍。床位先到先得，报到日早到的先选。下铺进出方便但是会被室友坐；上铺独立干净但要爬上爬下；靠窗的位置通风好光线足，推荐！寝室长由室友之间商量推荐。室友相处建议：报到第一天主动打招呼，尽早商量好作息规矩。',
   'Q30': '推荐证书：本专业技能证书（畜牧兽医执业兽医资格证/防疫员证、汽修维修工证/电工证等）、英语四级、计算机二级、普通话等级证书、驾驶证。期末考试注重理论+实操，实训课有操作考核。认真上课、实训课动手做、考前专心复习，通过不难。注意：挂科后补考/重修影响评优和专升本推荐，千万别挂！',
-
+};
 
 
 // ========== 新生30问卡片渲染 ==========
