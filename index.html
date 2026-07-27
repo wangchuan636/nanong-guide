@@ -176,22 +176,22 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 
 /* ===== 学长名片 ===== */
 .senior-section { margin: 20px 0; }
-.senior-card { background: linear-gradient(135deg, #fff 0%, #E8F5E9 100%); border-radius: 20px; border: 1px solid #C8E6C9; overflow: hidden; }
-.senior-top { display: flex; align-items: center; padding: 20px; background: linear-gradient(135deg, #4CAF50, #66BB6A); color: #fff; }
-.senior-avatar { width: 60px; height: 60px; border-radius: 50%; border: 3px solid rgba(255,255,255,.4); object-fit: cover; }
-.senior-meta { margin-left: 14px; flex: 1; }
-.senior-name { font-size: 18px; font-weight: 700; }
-.senior-role { font-size: 12px; opacity: .85; margin-top: 2px; }
-.senior-wx { font-size: 13px; opacity: .9; margin-top: 4px; }
-.senior-body { padding: 16px 20px; }
+.senior-card { background: #fff; border-radius: 20px; border: 1px solid #D7E8D8; overflow: hidden; }
+.senior-top { display: flex; align-items: center; padding: 16px 18px; background: #F8FBF8; color: #333; border-bottom: 1px solid #E8F0E8; }
+.senior-avatar { width: 48px; height: 48px; border-radius: 50%; border: 2px solid #C8E6C9; object-fit: cover; }
+.senior-meta { margin-left: 12px; flex: 1; }
+.senior-name { font-size: 16px; font-weight: 600; color: #4CAF50; }
+.senior-role { font-size: 11px; color: #999; margin-top: 2px; }
+.senior-wx { font-size: 11px; color: #aaa; margin-top: 2px; }
+.senior-body { padding: 12px 18px; }
 .senior-label { font-size: 13px; font-weight: 600; color: #4CAF50; margin-bottom: 10px; }
 .senior-svc { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
 .senior-tag { background: #E8F5E9; border: 1px solid #A5D6A7; border-radius: 20px; padding: 8px 16px; font-size: 13px; color: #4CAF50; }
 .senior-tag .st-name { font-weight: 600; }
 .senior-tag .st-price { font-size: 11px; color: #388E3C; margin-left: 4px; }
-.senior-qr { text-align: center; padding: 10px 0; border-top: 1px dashed #C8E6C9; }
-.senior-qr img { width: 140px; height: auto; border-radius: 8px; }
-.senior-qr-tip { font-size: 11px; color: #999; margin-top: 6px; }
+.senior-qr { text-align: center; padding: 8px 0; border-top: 1px dashed #D7E8D8; }
+.senior-qr img { width: 100px; height: auto; border-radius: 8px; }
+.senior-qr-tip { font-size: 11px; color: #999; margin-top: 4px; }
 
 /* ===== 首页VR入口 ===== */
 .home-vr-section { margin: 16px; background: linear-gradient(135deg, #E8F5E9 0%, #E8F5E9 100%); border: 2px solid #A5D6A7; border-radius: 20px; padding: 18px 16px; }
@@ -207,32 +207,32 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 
 /* ===== 首页突出卡片区 ===== */
 .prominent-section { margin: 16px; }
-.prominent-section .section-title { font-size: 13px; font-weight: 600; color: #4CAF50; margin-bottom: 10px; display: flex; align-items: center; }
-.prominent-section .section-title::before { content: '⭐'; margin-right: 6px; }
+.prominent-section .section-title { font-size: 13px; font-weight: 600; color: #999; margin-bottom: 10px; display: flex; align-items: center; }
+.prominent-section .section-title::before { content: ''; margin-right: 0; }
 .prominent-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 @media (max-width: 480px) { .prominent-grid { grid-template-columns: 1fr; } }
-.group-card { background: linear-gradient(135deg, #fff 0%, #E8F5E9 100%); border-radius: 20px; border: 1px solid #C8E6C9; overflow: hidden; display: flex; flex-direction: column; }
-.group-top { display: flex; align-items: center; padding: 20px; background: linear-gradient(135deg, #4CAF50, #66BB6A); color: #fff; }
-.group-icon { width: 50px; height: 50px; border-radius: 50%; background: rgba(255,255,255,.2); display: flex; align-items: center; justify-content: center; font-size: 28px; }
-.group-meta { margin-left: 14px; flex: 1; }
-.group-name { font-size: 17px; font-weight: 700; }
-.group-sub { font-size: 12px; opacity: .85; margin-top: 2px; }
-.group-body { padding: 16px 20px; flex: 1; display: flex; flex-direction: column; }
-.group-desc { font-size: 13px; color: #666; margin-bottom: 14px; line-height: 1.5; text-align: center; }
-.group-qr { text-align: center; padding: 10px 0; border-top: 1px dashed #C8E6C9; margin-top: auto; }
-.group-qr img { width: 140px; height: auto; border-radius: 8px; }
-.group-qr-tip { font-size: 11px; color: #999; margin-top: 6px; }
-.senior-card { background: linear-gradient(135deg, #fff 0%, #E8F5E9 100%); border-radius: 20px; border: 1px solid #C8E6C9; overflow: hidden; display: flex; flex-direction: column; }
-.senior-body { padding: 16px 20px; flex: 1; display: flex; flex-direction: column; }
-.senior-qr { text-align: center; padding: 10px 0; border-top: 1px dashed #C8E6C9; margin-top: auto; }
-.senior-qr img { width: 140px; height: auto; border-radius: 8px; }
-.senior-qr-tip { font-size: 11px; color: #999; margin-top: 6px; }
-.senior-top { display: flex; align-items: center; padding: 20px; background: linear-gradient(135deg, #4CAF50, #66BB6A); color: #fff; }
-.senior-avatar { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
-.senior-meta { margin-left: 14px; flex: 1; }
-.senior-name { font-size: 17px; font-weight: 700; }
-.senior-role { font-size: 12px; opacity: .85; margin-top: 2px; }
-.senior-wx { font-size: 11px; opacity: .75; margin-top: 2px; }
+.group-card { background: #fff; border-radius: 20px; border: 1px solid #D7E8D8; overflow: hidden; display: flex; flex-direction: column; }
+.group-top { display: flex; align-items: center; padding: 16px 18px; background: #F8FBF8; color: #333; border-bottom: 1px solid #E8F0E8; }
+.group-icon { width: 42px; height: 42px; border-radius: 50%; background: #E8F5E9; display: flex; align-items: center; justify-content: center; font-size: 22px; }
+.group-meta { margin-left: 12px; flex: 1; }
+.group-name { font-size: 15px; font-weight: 600; color: #4CAF50; }
+.group-sub { font-size: 11px; color: #999; margin-top: 2px; }
+.group-body { padding: 12px 18px; flex: 1; display: flex; flex-direction: column; }
+.group-desc { font-size: 12px; color: #999; margin-bottom: 10px; line-height: 1.5; text-align: center; }
+.group-qr { text-align: center; padding: 8px 0; border-top: 1px dashed #D7E8D8; margin-top: auto; }
+.group-qr img { width: 100px; height: auto; border-radius: 8px; }
+.group-qr-tip { font-size: 11px; color: #999; margin-top: 4px; }
+.senior-card { background: #fff; border-radius: 20px; border: 1px solid #D7E8D8; overflow: hidden; display: flex; flex-direction: column; }
+.senior-body { padding: 12px 18px; flex: 1; display: flex; flex-direction: column; }
+.senior-qr { text-align: center; padding: 8px 0; border-top: 1px dashed #D7E8D8; margin-top: auto; }
+.senior-qr img { width: 100px; height: auto; border-radius: 8px; }
+.senior-qr-tip { font-size: 11px; color: #999; margin-top: 4px; }
+.senior-top { display: flex; align-items: center; padding: 16px 18px; background: #F8FBF8; color: #333; border-bottom: 1px solid #E8F0E8; }
+.senior-avatar { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+.senior-meta { margin-left: 12px; flex: 1; }
+.senior-name { font-size: 16px; font-weight: 600; color: #4CAF50; }
+.senior-role { font-size: 11px; color: #999; margin-top: 2px; }
+.senior-wx { font-size: 11px; color: #aaa; margin-top: 2px; }
 </style>
 
 
@@ -273,8 +273,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
       <div class="home-vr-card" onclick="openVrQR()">
         <div class="vr-icon">🏛️</div>
         <div class="vr-name">校园全景VR</div>
-        <div class="vr-desc">覆盖雪枫、卧龙校区</div>
-        <div class="vr-badge">微信小程序进入</div>
+        <div class="vr-desc">覆盖雪枫、淅川校区</div>
+        <div class="vr-badge">720云全景</div>
       </div>
       <div class="home-vr-card" onclick="openXichuanPhotos()">
         <div class="vr-icon">📸</div>
@@ -806,7 +806,10 @@ function openVrQR() {
   var overlay = document.createElement('div');
   overlay.className = 'modal-overlay';
   overlay.onclick = function(e) { if (e.target === overlay) overlay.remove(); };
-  overlay.innerHTML = '<div class="modal-box"><div class="m-icon">🏛️</div><div class="m-title">校园全景VR</div><div class="m-desc" style="text-align:left;">通过微信小程序「<b>南阳农业职业技术学院</b>」即可沉浸式游览雪枫、卧龙两个校区的全景VR。<br><br><b>如何进入：</b><br>打开微信 → 搜索小程序「<b>南阳农业职业技术学院</b>」→ 进入后找到"全景VR"入口即可在线游览。</div><button class="m-btn" onclick="this.parentElement.parentElement.remove()">知道了</button></div>';
+  overlay.innerHTML = '<div class="modal-box" style="text-align:center;"><div class="m-icon">🏛️</div><div class="m-title">校园全景VR</div><div class="m-desc">选择校区，沉浸式游览720云全景</div>' +
+    '<a href="https://www.720yun.com/vr/c75jz0knsf4" target="_blank" style="display:block;margin:10px 0;padding:14px 20px;background:#4CAF50;color:#fff;border-radius:12px;text-decoration:none;font-size:16px;font-weight:600;">🏫 雪枫校区</a>' +
+    '<a href="https://www.720yun.com/vr/128j5ssytn3" target="_blank" style="display:block;margin:10px 0;padding:14px 20px;background:#4CAF50;color:#fff;border-radius:12px;text-decoration:none;font-size:16px;font-weight:600;">🌊 淅川校区</a>' +
+    '<button class="m-btn" style="margin-top:4px;" onclick="this.parentElement.parentElement.remove()">关闭</button></div>';
   document.body.appendChild(overlay);
 }
 
